@@ -8,14 +8,13 @@ int main() {
 
     // Write your code here
     if(number==0){
-      printf("the number is zero");
+      printf("%d is zero\n",number);
     }
     else if(number%2==1){
-      printf("the number is odd");
+      printf("%d is odd\n",number);
     }
     else if(number%2==0){
-      printf("the number is even");
+      printf("%d is even\n",number);
     }
-   
     return 0;
 }
